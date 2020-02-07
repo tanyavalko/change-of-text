@@ -1,0 +1,108 @@
+.second-page {
+    display: none;
+}
+
+.content {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+
+}
+.btn-edit{
+    margin-right: 10px;
+}
+#options{
+    background-color: grey;  
+}
+
+.container-first-page {
+    height: 100%;
+}
+
+form input {
+    cursor: pointer;
+    border: none;
+}
+
+form label {
+    display: block;
+}
+
+.form-fontSize label:first-child {
+    font-size: 12px; 
+}
+.form-fontSize label:nth-child(2) {
+    font-size: 14px; 
+}
+.form-fontSize label:nth-child(3) {
+    font-size: 16px; 
+}
+.form-fontSize label:nth-child(4) {
+    font-size: 18px; 
+}
+.form-fontSize label:nth-child(5) {
+    font-size: 20px; 
+}
+.form-fontSize label:nth-child(6) {
+    font-size: 22px; 
+}
+.form-fontSize label:nth-child(7) {
+    font-size: 25px; 
+}
+.form-fontSize label:last-child {
+    font-size: 30px; 
+}
+
+.form-fontFamily label:first-child {
+    font-family: Arial, sans-serif; 
+}
+.form-fontFamily label:nth-child(2) {
+    font-family:  sans-serif; 
+}
+.form-fontFamily label:nth-child(3) {
+    font-family:  sans-serif; 
+}
+.form-fontFamily label:nth-child(4) {
+    font-family:  sans-serif; 
+}
+.form-fontFamily label:nth-child(5) {
+    font-family:  sans-serif; 
+}
+.form-fontFamily label:last-child {
+    font-family:  sans-serif; 
+}
+
+.colors-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.colors-group > div {
+    margin: 8px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.colors-group  div:first-child {
+    border: 1px solid grey;
+}
+
+.tab-img img {
+    max-width: 120px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.modal-dialog {
+    max-width: 650px;
+}
+
+.form-row-btn button {
+    width: 100%;
+}
+
+.form-control-invalid {
+    border: 1px solid red;
+}
+
